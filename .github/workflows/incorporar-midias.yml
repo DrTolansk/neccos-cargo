@@ -1,4 +1,4 @@
-name: Incorporar midias e PDF da NECCOS
+name: Incorporar midias e PDF da NECCOS Cargo
 on:
   push:
     paths:
