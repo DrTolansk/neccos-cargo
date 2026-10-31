@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules/
+*.key
+*.pem
+*.p12
+*.pfx
+__pycache__/
+.DS_Store
+Thumbs.db
+clientes-privados/
+contratos-privados/
+motoristas-privados/
