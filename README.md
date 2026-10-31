@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://neccos-cargo.joasmaciel588.workers.dev/">🌐 Site institucional publicado</a> ·
-  <a href="docs/proposta-parcerias.md">🤝 Proposta de parcerias</a> ·
+  <a href="APRESENTACAO-PARCEIROS.pdf">📄 Apresentação em PDF</a> ·
   <a href="docs/00-resumo-executivo.md">📌 Resumo executivo</a> ·
   <a href="docs/07-proposta-parcerias-investimento.md">🤝 Proposta para parceiros</a> ·
   <a href="docs/06-neccos-hub.md">💻 NECCOS HUB</a>
@@ -68,7 +68,7 @@ flowchart LR
 
 ## Site e tecnologia
 
-O site institucional pode ser acessado em **[NECCOS Cargo](https://neccos-cargo.joasmaciel588.workers.dev/)**. Seu HTML/CSS/JS estão em [`website/index.html`](website/index.html), com [guia técnico](website/GUIA-IMPLANTACAO.md). As imagens ainda estão hospedadas na Cloudflare e o código espelhado no GitHub as referencia por URL absoluta. Para nova implantação com autonomia, guarde o ZIP original completo. O próximo passo comercial é registrar o domínio próprio quando houver orçamento; o site pode continuar funcionando sem isso.
+O site institucional pode ser acessado em **[NECCOS Cargo](https://neccos-cargo.joasmaciel588.workers.dev/)**. Seu HTML/CSS/JS estão em [`website/index.html`](website/index.html), com [guia técnico](website/GUIA-IMPLANTACAO.md). As sete imagens originais também estão versionadas em [`website/assets/`](website/assets/), com caminhos locais no HTML. A apresentação em PDF está disponível em [`APRESENTACAO-PARCEIROS.pdf`](APRESENTACAO-PARCEIROS.pdf). O próximo passo comercial é registrar o domínio próprio quando houver orçamento; o site pode continuar funcionando sem isso.
 
 A construção do NECCOS HUB será orientada por necessidades reais de operação. Ferramentas em estudo incluem **Excel / planilhas, SQL, Python, Power BI e n8n**. Nenhuma integração deve ser considerada concluída apenas por estar documentada aqui.
 
