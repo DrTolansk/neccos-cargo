@@ -12,4 +12,6 @@ Os arquivos originais incluídos no ZIP de implantação do site foram:
 | compartilhamento.jpg | Prévia em redes sociais |
 | favicon.png | Ícone da página |
 
-**Observação:** estes arquivos binários ainda não foram enviados ao GitHub. O `website/index.html` neste repositório referencia as imagens do site hospedado na Cloudflare: https://neccos-cargo.joasmaciel588.workers.dev/assets/. Para uma cópia offline ou implantação autônoma, será necessário incluir os sete arquivos nesta pasta e usar URLs relativas.
+**Status: concluído.** As sete imagens binárias estão nesta pasta, e o arquivo `website/index.html` referencia cada imagem pelo caminho relativo `assets/...`, permitindo usar o site como pacote estático independente da URL do Cloudflare.
+
+Esses arquivos foram recuperados do site já publicado e verificados antes da inclusão no repositório.
