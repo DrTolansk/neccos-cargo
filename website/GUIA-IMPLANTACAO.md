@@ -26,10 +26,11 @@
 ```
 
 ## Arquivos disponíveis neste GitHub
-- [index.html](index.html) — HTML, CSS e JavaScript reais utilizados no site, com caminhos de imagem convertidos para URLs do site público;
-- [Inventário das imagens](assets/README.md) — nomes, papéis e localização dos recursos.
+- [index.html](index.html) — HTML, CSS e JavaScript reais utilizados no site, com os caminhos relativos para imagens versionadas no próprio repositório;
+- [Inventário das imagens](assets/README.md) — nomes, papéis e localização dos recursos;
+- [Apresentação para parceiros](../APRESENTACAO-PARCEIROS.pdf) — PDF institucional versionado.
 
-As sete imagens binárias do site **ainda não estão incluídas** neste GitHub. Para restaurar o projeto sem depender do endereço Cloudflare, utilize o ZIP original completo que foi entregue na criação do site ou inclua as imagens na pasta `assets/`, substituindo as URLs absolutas por caminhos relativos.
+As sete imagens binárias estão agora incluídas em [`assets/`](assets/) no repositório, e o HTML utiliza caminhos relativos. Assim, a pasta `website/` contém os arquivos necessários para publicar uma cópia estática independente do site.
 
 ## Atualizar o site
 1. Editar HTML e/ou recursos em uma cópia do pacote completo.
