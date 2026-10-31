@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://neccos-cargo.joasmaciel588.workers.dev/assets/banner-neccos.webp" alt="NECCOS Cargo — Agenciamento de Cargas e Gestão de Fretes" width="100%" />
+  <img src="assets/banner-neccos.webp" alt="NECCOS Cargo — Agenciamento de Cargas e Gestão de Fretes" width="100%" />
 </p>
 
 <h1 align="center">NECCOS Cargo</h1>
